@@ -1,6 +1,19 @@
 body {
   background-color: lightblue;
 }
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.banner > a,
+.banner > img,
+.banner > a > img {
+  width: 20%;
+  display: grid;
+  margin: auto;
+  justify-self: center;
+}
 #header {
   text-align: center;
   font-size: 70px;
