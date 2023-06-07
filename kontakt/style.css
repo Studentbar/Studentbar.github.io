@@ -1,66 +1,62 @@
-body{
-    background-color: lightblue;
+body {
+  background-color: lightblue;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    justify-self: center;
-    align-self: center;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  justify-self: center;
+  align-self: center;
 }
 .grid > p {
-    text-align: center;
-    font-size: 40px;
-    margin: auto;
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
 }
 .grid > a,
 .grid > img,
 .grid > a > img {
-    width: 70%;
-    display: grid;
-    place-items: center; 
-    margin: auto;
-    justify-self: center;
-    align-self: center;
-    transition-duration: 0.7s;
+  width: 70%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  transition-duration: 0.7s;
 }
-#href{
-    font-size: 40px;
-    border: solid 0.2em black;
+#href {
+  font-size: 40px;
+  border: solid 0.2em black;
 }
-#back{
-    grid-column: 1;
-    grid-row: 4 !important;
-    border: solid 0.2em black;
-    font-size: 40px;
+#back {
+  grid-column: 1;
+  grid-row: 5 !important;
+  border: solid 0.2em black;
+  font-size: 40px;
 }
-a{
-    transition-duration: 0.7s;
+a {
+  transition-duration: 0.7s;
 }
-a:hover{
-    background-color: green;
+a:hover {
+  background-color: green;
 }
 button {
-    padding: 2px 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: lightblue;
-    color: black;
-    border: 2px solid #4caf50 !important;
-    align-items: center;
-    margin: 20px;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+  border: 2px solid #4caf50 !important;
+  align-items: center;
+  margin: 20px;
 }
 
 button:hover {
-    background-color: #4caf50;
-    color: rgb(12, 11, 11);
-}
-#img{
-    width: 20% !important;
-    margin: auto;
+  background-color: #4caf50;
+  color: rgb(12, 11, 11);
 }

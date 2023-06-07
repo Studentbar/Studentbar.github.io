@@ -1,48 +1,47 @@
-body{
-    background-color: lightblue;
+body {
+  background-color: lightblue;
 }
-#header{
-    text-align: center;
-    font-size: 70px;
+#header {
+  text-align: center;
+  font-size: 70px;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 0.5cm;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5cm;
 }
 .grid > a,
 .grid > img,
 .grid > a > img {
-    width: 70%;
-    display: grid;
-    place-items: center; 
-    margin: auto;
-    justify-self: center;
-    align-self: center;
-    border: solid 0.2em black;
+  width: 70%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  border: solid 0.2em black;
 }
-a{
-    transition-duration: 0.7s;
-    font-size: 40px;
+a {
+  transition-duration: 0.7s;
+  font-size: 40px;
 }
-a:hover{
-    background-color: green;
-
+a:hover {
+  background-color: green;
 }
-.grid2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
 }
 .grid2 > a,
 .grid2 > img,
 .grid2 > a > img {
-    width: 60%;
-    display: grid;
-    place-items: center; 
-    margin: auto;
-    justify-self: center;
-    align-self: center;
-    border: solid 0.2em black;
+  width: 60%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  border: solid 0.2em black;
 }

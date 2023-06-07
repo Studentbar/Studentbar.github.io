@@ -1,41 +1,39 @@
-body{
-    background-color: lightblue;
+body {
+  background-color: lightblue;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    justify-self: center;
-    align-self: center;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  justify-self: center;
+  align-self: center;
 }
 .grid > p {
-    text-align: center;
-    font-size: 40px;
-    margin: auto;
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
 }
 .grid > a,
 .grid > img,
 .grid > a > img {
-    width: 70%;
-    display: grid;
-    place-items: center; 
-    margin: auto;
-    justify-self: center;
-    align-self: center;
-    transition-duration: 0.7se;
+  width: 70%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  transition-duration: 0.7se;
 }
-#href{
-    font-size: 40px;
-    border: solid 0.2em black;
+#href {
+  font-size: 40px;
+  border: solid 0.2em black;
 }
-#redirect{
-    font-size: 40px;
-
-    
+#redirect {
+  font-size: 40px;
 }
-#back{
-    grid-column: 1;
-    grid-row: 6 !important;
-    border: solid 0.2em black;
-    font-size: 40px;
+#back {
+  grid-column: 1;
+  grid-row: 6 !important;
+  border: solid 0.2em black;
+  font-size: 40px;
 }
