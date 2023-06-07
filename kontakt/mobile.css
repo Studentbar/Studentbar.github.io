@@ -1,0 +1,47 @@
+body{
+    background-color: lightblue;
+}
+#header{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+.grid > a{
+    width: 70%;
+    display: grid;
+    place-items: center; 
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+.grid2 > img{
+    margin: auto;
+}
+p{
+    margin: auto;
+    text-align: center;
+}
+#redirect{
+    font-size: 20px;
+    border: none;
+
+    
+}
+#href{
+    font-size: 20px;
+    border: solid 0.2em black;
+}
+#back{
+    grid-column: 1;
+    grid-row: 4 !important;
+    border: solid 0.2em black;
+    font-size: 20px;
+}

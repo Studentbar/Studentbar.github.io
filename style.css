@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: lightblue;
 }
 #header{
     text-align: center;
@@ -29,4 +29,20 @@ a{
 a:hover{
     background-color: green;
 
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+.grid2 > a,
+.grid2 > img,
+.grid2 > a > img {
+    width: 60%;
+    display: grid;
+    place-items: center; 
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    border: solid 0.2em black;
 }

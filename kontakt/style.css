@@ -1,3 +1,6 @@
+body{
+    background-color: lightblue;
+}
 .grid{
     display: grid;
     grid-template-columns: 1fr;
@@ -27,10 +30,33 @@
 }
 #back{
     grid-column: 1;
-    grid-row: 6 !important;
+    grid-row: 4 !important;
     border: solid 0.2em black;
     font-size: 40px;
 }
+a{
+    transition-duration: 0.7s;
+}
 a:hover{
     background-color: green;
+}
+button {
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+    border: 2px solid #4caf50 !important;
+    align-items: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #4caf50;
+    color: rgb(12, 11, 11);
 }
