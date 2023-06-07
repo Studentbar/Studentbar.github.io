@@ -60,3 +60,7 @@ button:hover {
     background-color: #4caf50;
     color: rgb(12, 11, 11);
 }
+#img{
+    width: 20% !important;
+    margin: auto;
+}
