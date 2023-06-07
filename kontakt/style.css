@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-self: center;
+    align-self: center;
+}
+.grid > p {
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+}
+.grid > a,
+.grid > img,
+.grid > a > img {
+    width: 70%;
+    display: grid;
+    place-items: center; 
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    transition-duration: 0.7s;
+}
+#href{
+    font-size: 40px;
+    border: solid 0.2em black;
+}
+#back{
+    grid-column: 1;
+    grid-row: 6 !important;
+    border: solid 0.2em black;
+    font-size: 40px;
+}
+a:hover{
+    background-color: green;
+}
